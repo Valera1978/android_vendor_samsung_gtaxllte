@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/gtaxllte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/gtaxllte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
@@ -113,3 +114,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/rampatch_tlv_tf_1.1.tlv:system/etc/firmware/rampatch_tlv_tf_1.1.tlv \
     vendor/samsung/gtaxllte/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so
