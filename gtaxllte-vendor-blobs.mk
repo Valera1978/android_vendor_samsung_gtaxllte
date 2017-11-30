@@ -146,5 +146,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxllte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
+
 #    vendor/samsung/gtaxllte/proprietary/lib/libril.so:system/lib/libril.so \
 #    vendor/samsung/gtaxllte/proprietary/bin/rild:system/bin/rild \
