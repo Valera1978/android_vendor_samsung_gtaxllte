@@ -83,8 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
-    vendor/samsung/gtaxllte/proprietary/lib/hw/vulkan.exynos5.so:system/lib/hw/vulkan.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libOpenCL.so.1.1:system/lib/libOpenCL.so.1.1 \
     vendor/samsung/gtaxllte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
