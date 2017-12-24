@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/gtaxllte/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/gtaxllte/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
@@ -83,8 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
-    vendor/samsung/gtaxllte/proprietary/lib/hw/vulkan.exynos5.so:system/lib/hw/vulkan.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libOpenCL.so.1.1:system/lib/libOpenCL.so.1.1 \
     vendor/samsung/gtaxllte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
@@ -92,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
     vendor/samsung/gtaxllte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/gtaxllte/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/samsung/gtaxllte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
     vendor/samsung/gtaxllte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -137,7 +133,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
@@ -145,6 +149,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxllte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/vendor/lib/libprotobuf-cpp-shim.so:system/vendor/lib/libprotobuf-cpp-shim.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
