@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/gtaxllte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/gtaxllte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/gtaxllte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
     vendor/samsung/gtaxllte/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/gtaxllte/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
@@ -149,9 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxllte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/vendor/lib/libprotobuf-cpp-shim.so:system/vendor/lib/libprotobuf-cpp-shim.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
