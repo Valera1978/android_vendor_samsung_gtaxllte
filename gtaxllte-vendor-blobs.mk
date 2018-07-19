@@ -76,9 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/gtaxllte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/gtaxllte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
-    vendor/samsung/gtaxllte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
     vendor/samsung/gtaxllte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
@@ -113,15 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/gtaxllte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/gtaxllte/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
@@ -130,6 +119,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so
 
+# omx stuff
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so
+
 # camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
@@ -137,4 +145,37 @@ PRODUCT_COPY_FILES += \
 
 # drm
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    vendor/samsung/gtaxllte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so
+
+# aptx
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so
+
+# sensors
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
+    vendor/samsung/gtaxllte/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:system/vendor/bin/hw/android.hardware.sensors@1.0-service \
+    vendor/samsung/gtaxllte/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libprotobuf-cpp-fooo.so:system/lib64/libprotobuf-cpp-fooo.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so
