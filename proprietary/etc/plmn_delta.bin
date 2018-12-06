@@ -3,10 +3,12 @@
 238063"3
 
 24007Tele2 SE"Tele2 SE
-(
-28001CYTAMOBILE-VODAFONE"CYTAVODA
+
+25005TELE2"TELE2
 
 25011Yota"Yota
+(
+28001CYTAMOBILE-VODAFONE"CYTAVODA
 
 30237Fido"Fido
 
@@ -128,12 +130,22 @@ BTB-Mobile"B-Mobile
 40445Airtel"Airtel
 
 40449Airtel"Airtel
+
+40450Reliance"RELIANCE
+
+40452Reliance"RELIANCE
+
+40467Reliance"RELIANCE
 
 40468Dolphin"Dolphin
 
 40469Dolphin"Dolphin
 
 40470Airtel"Airtel
+
+40483Reliance"Reliance
+
+40485Reliance"RELIANCE
 
 40490Airtel"Airtel
 
@@ -153,17 +165,45 @@ BTB-Mobile"B-Mobile
 
 40498Airtel"Airtel
 
+40501Reliance"Reliance
+
 40503Reliance"Reliance
 
 40504Reliance"Reliance
 
+40505Reliance"Reliance
+
+40506Reliance"Reliance
+
+40507Reliance"Reliance
+
 40508Reliance"Reliance
+
+40509Reliance"Reliance
+
+40510Reliance"Reliance
+
+40511Reliance"Reliance
 
 40512Reliance"Reliance
 
+40513Reliance"Reliance
+
 40514Reliance"Reliance
 
+40515Reliance"Reliance
+
 40517Reliance"Reliance
+
+40518Reliance"Reliance
+
+40519Reliance"Reliance
+
+40520Reliance"Reliance
+
+40521Reliance"Reliance
+
+40522Reliance"Reliance
 
 40523Reliance"Reliance
 $
@@ -352,8 +392,8 @@ $
 41003Ufone"Ufone
 
 41006Telenor"Telenor
-
-41007Warid"Warid
+
+41007Jazz"Jazz
 
 41240AREEBA"AREEBA
 
@@ -393,8 +433,6 @@ Zain Iraq "	Zain Iraq
 41845mobitel"mobitel
 
 41902zain KW"zain KW
-
-41903WATANIYA"WATANIYA
 
 41904VIVA"VIVA
 
@@ -478,6 +516,8 @@ Beeline KH"Beeline
 45701LAO GSM"LAOGSM
 
 45708Beeline Lao"Beeline
+
+46605GT 4G"GT 4G
 
 46703KP SUN"SUNNET
  
@@ -498,10 +538,12 @@ Beeline KH"Beeline
 50218U Mobile"U Mobile
 
 50219	MY CELCOM"	MY CELCOM
-
-50508One.Tel"One.Tel
+#
+50503Vodafone AU"Vodafone AU
 
 505063"3
+
+50508One.Tel"One.Tel
 
 51009	Smartfren"	Smartfren
 
@@ -642,8 +684,6 @@ $
 63089CD OASIS"OASIS
 
 63104MOVICEL"MOVICEL
-
-63203	ORANGE BS"	ORANGE BS
 
 63207GTM"GTM
 
