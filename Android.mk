@@ -21,12 +21,14 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libGLES_mali.so
-LOCAL_MULTILIB := 32
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/egl/libGLES_mali.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/egl/libGLES_mali.so
+LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
+include $(BUILD_PREBUILT)
 
 SYMLINKS := $(TARGET_OUT)/vendor
 $(SYMLINKS):
