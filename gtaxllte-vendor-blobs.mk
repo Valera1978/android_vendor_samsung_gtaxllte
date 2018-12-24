@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
-    vendor/samsung/gtaxllte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/Data.msc:system/etc/firmware/Data.msc \
@@ -107,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxllte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/gtaxllte/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
+    vendor/samsung/gtaxllte/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/etc/ca.pem \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
@@ -223,3 +223,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_camera/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:system/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so \
     vendor/samsung/gtaxllte/proprietary/_camera/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:system/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so
+
+# gps add
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/android.hardware.sensors_gps.so:system/lib/android.hardware.sensors_gps.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libsensorndkbridge.so:system/lib/libsensorndkbridge.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/android.hardware.sensors_gps.so:system/lib64/android.hardware.sensors_gps.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libsensorndkbridge.so:system/lib64/libsensorndkbridge.so
