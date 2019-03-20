@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    vendor/samsung/gtaxllte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -104,9 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxllte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/gtaxllte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/gtaxllte/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
-    vendor/samsung/gtaxllte/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/etc/ca.pem \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
@@ -148,9 +145,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/gtaxllte/proprietary/vendor/lib/libion_exynos.so:system/vendor/lib/libion_exynos.so
+    vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so
 
 # drm
 PRODUCT_COPY_FILES += \
@@ -180,38 +175,48 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/samsung/gtaxllte/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/gtaxllte/proprietary/lib64/libprotobuf-cpp-fooo.so:system/lib64/libprotobuf-cpp-fooo.so \
     vendor/samsung/gtaxllte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/gtaxllte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so
 
 # bsp
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosutils.so:system/lib/libexynosutils.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libfimg.so:system/lib/libfimg.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/hw/memtrack.exynos5.so:system/lib64/hw/memtrack.exynos5.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libcsc.so:system/lib64/libcsc.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosdisplay.so:system/lib64/libexynosdisplay.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libfimg.so:system/lib64/libfimg.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfimg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfimg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmi.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwcutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 
 # camera
 PRODUCT_COPY_FILES += \
@@ -220,7 +225,15 @@ PRODUCT_COPY_FILES += \
 
 # gps add
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/lib/android.hardware.sensors_gps.so:system/lib/android.hardware.sensors_gps.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libsensorndkbridge.so:system/lib/libsensorndkbridge.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/android.hardware.sensors_gps.so:system/lib64/android.hardware.sensors_gps.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/libsensorndkbridge.so:system/lib64/libsensorndkbridge.so
+    vendor/samsung/gtaxllte/proprietary/_gps/lib/vendor.samsung.hardware.gnss@1.0.so:system/lib/vendor.samsung.hardware.gnss@1.0.so \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/bin/hw/gpsd:system/vendor/bin/hw/gpsd \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/bin/hw/android.hardware.gnss@1.0-service:system/vendor/bin/hw/android.hardware.gnss@1.0-service \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/gnss/gps.cfg:system/vendor/etc/gnss/gps.cfg \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/ca.pem \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/init/init.gps.rc:system/vendor/etc/init/init.gps.rc \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/init/android.hardware.gnss@1.0-service.rc:system/vendor/etc/init/android.hardware.gnss@1.0-service.rc \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/android.hardware.gnss@1.1-impl.so:system/vendor/lib/hw/android.hardware.gnss@1.1-impl.so \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:system/vendor/lib/vendor.samsung.hardware.gnss@1.0.so
