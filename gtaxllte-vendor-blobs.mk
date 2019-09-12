@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
