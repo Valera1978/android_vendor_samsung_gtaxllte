@@ -185,13 +185,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_gps/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
-    vendor/samsung/gtaxllte/proprietary/_gps/vendor/bin/hw/android.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
-    vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/init/android.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service.rc \
-    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.1-impl.so \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/bin/hw/android.hardware.gnss@1.0-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-samsung \
+    vendor/samsung/gtaxllte/proprietary/_gps/vendor/etc/init/android.hardware.gnss@1.0-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-samsung.rc \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so
+
+#    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.1-impl.so
