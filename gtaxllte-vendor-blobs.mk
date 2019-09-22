@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/av_performance.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/av_performance.conf \
-    vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_did.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/bt_did.conf \
-    vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_stack.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/bt_stack.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/iop_bt.db:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/iop_bt.db \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/iop_device_list.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/iop_device_list.conf \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/bdwlan30.bin \
