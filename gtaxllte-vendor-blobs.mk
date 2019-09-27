@@ -165,3 +165,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so
 
 #    vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.1-impl.so
+
+# wifi
+PRODUCT_COPY_FILES += \
+vendor/samsung/gtaxllte/proprietary/_wifi/vendor/bin/hw/android.hardware.wifi@1.0-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-samsung \
+vendor/samsung/gtaxllte/proprietary/_wifi/vendor/etc/init/android.hardware.wifi@1.0-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-samsung.rc
