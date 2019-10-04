@@ -35,18 +35,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxllte/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libprotobuf-cpp-fooo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsomp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomp.so \
     vendor/samsung/gtaxllte/proprietary/lib/libstainkiller.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstainkiller.so \
     vendor/samsung/gtaxllte/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/gtaxllte/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxllte/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
-    vendor/samsung/gtaxllte/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
-    vendor/samsung/gtaxllte/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
-    vendor/samsung/gtaxllte/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/setfile_4h5yc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4h5yc.bin \
@@ -103,10 +98,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/libprotobuf-cpp-fooo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-fooo.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec-ril.so \
-    vendor/samsung/gtaxllte/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so
 
 # bsp
 PRODUCT_COPY_FILES += \
@@ -218,3 +210,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so
+
+# ril
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/_ril/lib64/libsec_vaultkeeper_serverHal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec_vaultkeeper_serverHal.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/lib64/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec-ril.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/lib64/vendor.samsung.hardware.radio.channel@1.0_vendor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/lib64/vendor.samsung.security.vaultkeeper_server@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.security.vaultkeeper_server@1.0.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio.channel@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
+    vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@1.2_vendor.so
