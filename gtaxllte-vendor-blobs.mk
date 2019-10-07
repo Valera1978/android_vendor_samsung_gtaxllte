@@ -223,3 +223,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
     vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
     vendor/samsung/gtaxllte/proprietary/_ril/vendor/lib64/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@1.2_vendor.so
+
+# sensors
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/_sensors/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
+    vendor/samsung/gtaxllte/proprietary/_sensors/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/samsung/gtaxllte/proprietary/_sensors/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so
