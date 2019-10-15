@@ -153,57 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/gtaxllte/proprietary/_gps/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so
 
-# sound
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/bin/audioserver:$(TARGET_COPY_OUT_SYSTEM)/bin/audioserver \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio.common@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@4.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@4.0-util.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@5.0-util.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio.effect@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.effect@4.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio.effect@5.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.effect@5.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio@4.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.audio@5.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio@5.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.soundtrigger@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.soundtrigger@2.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.soundtrigger@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.soundtrigger@2.1.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/android.hardware.soundtrigger@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.soundtrigger@2.2.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaaudioservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaaudioservice.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudioflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioflinger.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiohal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiohal.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiohal@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiohal@2.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiohal@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiohal@4.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiohal@5.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiohal@5.0.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiohal_deathhandler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiohal_deathhandler.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiopolicyenginedefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyenginedefault.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiopolicymanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanager.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiopolicymanagerdefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanagerdefault.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiopolicyservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyservice.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudioprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioprocessing.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libaudiospdif.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiospdif.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libmediaextractorservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediaextractorservice.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libmedialogservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedialogservice.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libnbaio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnbaio.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_32bit/lib/libsoundtriggerservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsoundtriggerservice.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/hw/audio.primary.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.universal7870.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/lib_DNSe_NRSS_ver226.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_DNSe_NRSS_ver226.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/lib_SamsungRec_V05001.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_V05001.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/lib_SoundAlive_SRC384_ver300.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_SRC384_ver300.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_soundaliveresampler.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/lib_SoundBooster_ver700.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver700.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libaudio-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-ril.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libcodecdump.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcodecdump.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libpreprocessing_nxp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpreprocessing_nxp.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcessConvertor.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libSamsungPreProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPreProcess.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libsamsungRecord_ns.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord_ns.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_plus.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudioinfo.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
-    vendor/samsung/gtaxllte/proprietary/_sound/from_stock/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so
-
 # ril
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/_ril/lib64/libsec_vaultkeeper_serverHal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec_vaultkeeper_serverHal.so \
