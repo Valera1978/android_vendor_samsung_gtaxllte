@@ -83,13 +83,12 @@ PRODUCT_COPY_FILES += \
 
 # camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/lib/hw/camera.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.universal7870.so \
+    vendor/samsung/gtaxllte/proprietary/lib/hw/camera.vendor.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/_camera/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so \
-    vendor/samsung/gtaxllte/proprietary/_camera/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so
+    vendor/samsung/gtaxllte/proprietary/_camera/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so
 
 # drm
 PRODUCT_COPY_FILES += \
